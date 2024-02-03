@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Localhost Open Graph Tester",
+  "description": "Effortless Open Graph tags testing by hosting your meta tags.",
+  "version": "1.0.1",
+  "action": {
+    "default_icon": "logo.png"
+  },
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "permissions": [
+    "scripting",
+    "activeTab"
+  ],
+  "background": {
+    "service_worker": "bg.js"
+  }
+}
